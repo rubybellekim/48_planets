@@ -14,11 +14,13 @@ const Navbar = () => {
         <nav className="navbar">
             <div className="container">
                 <div className="logo">
-                    <h1>48 Planets</h1>
+                    <a href="/">48 Planets ♋︎</a>
                 </div>
 
-                <div className="menu-icon" onClick={handleShowNavbar}>
-                    🌹
+                <div className="menu" onClick={handleShowNavbar}>
+                    <div className="menu-icon"></div>
+                    <div className="menu-icon"></div>
+                    <div className="menu-icon"></div>
                 </div>
 
 
